@@ -32,4 +32,5 @@ const deleteContact = (req,res) => {
 const getContact = (req,res) => {
     res.status(200).send(`get id ${req.params.id}`)
 }
-module.exports = { getContacts,createContact, updateContact, deleteContact, getContact}
+module.exports = { 
+    getContacts,createContact, updateContact, deleteContact, getContact}
